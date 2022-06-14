@@ -1,12 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/colors.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Mulheres em Tech</title>
 </head>
-<body>
+<body class="bg-color-grey-5">
+    
+    <!--Cabeçalho-->
+
+    <header>
+        <div class="container">
+            <img src="./assets/img/logo.png" alt="Logo da empresa Brazilians in Tech">
+
+        <h1 class="title-1 color-grey-3">Lugar de mulher é onde ela quiser!</h1>
+
+        <p class="text-1 color-grey-5">Está procurando oportunidades de estágio, emprego ou bolsas de estudo? Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil ou ao redor do mundo?</p>
+
+        <h4 class="title-5 color-grey-3">Confere aqui embaixo o que temos pra você!</h4>
+        <button class="big-button bg-color-brand-1">
+            <a href="#secao-vagas" class="color-grey-6">Ir para seção de vagas</a> 
+        </button>
+        </div>
+    </header>    
+            
+    <!--Conteúdo Principal-->
+
+    <main class="container">
+        <div class="main-container">
+
+            <!--Seção Vagas-->
+            
+            <section class="cards-container">
+                <h2 id="secao-vagas" class="title-4 color-grey-1">Vagas</h2>
+
+                <!--Primeiro card de vaga-->
+                
+                <!-- 
+                <div class="cards-vagas color-grey-6">
+                    <h2 class="title-4 color-grey-1">Pessoa desenvolvedora front-end - React JS</h2>
+                    <span class="text-3 color-grey-2 card">Kenzie Academy</span>
+                    <span class="text-3 color-grey-2 card">Curitiba</span>
+                    <p class="text-2 color-grey-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque magni possimus quo! Et nulla in dolore sequi aut porro non quam, maxime temporibus quasi facere illo impedit placeat praesentium?</p>
+                    <div class="box-candidatar">
+                        <span class="text-3 color-grey-2">Home Office</span>
+                        <button class="mini-btn bg-color-brand-1 color-grey-6">Candidatar</button>  
+                    </div>
+                </div>
+                -->
+
+                <!--Segundo card de vaga
+        
+                
+                    <div class="cards-vagas color-grey-6">
+                        <h2 class="title-4 color-grey-1">Pessoa desenvolvedora back-end - Node JS</h2>
+                        <span class="text-3 color-grey-2 card">Brazilians in Tech</span>
+                        <span class="text-3 color-grey-2 card">Rio de Janeiro</span>
+                        <p class="text-2 color-grey-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque magni possimus quo! Et nulla in dolore sequi aut porro non quam, maxime temporibus quasi facere illo impedit placeat praesentium?</p>
+                        <div class="box-candidatar">
+                        <span class="text-3 color-grey-2">Presencial</span>
+                        <button class="mini-btn bg-color-brand-1 color-grey-6">Candidatar</button>
+                        </div>
+                    </div>
+
+                <!--Terceiro card de vaga
+                
+                    <div class="cards-vagas color-grey-6">
+                        <h2 class="title-4 color-grey-1">Pessoa desenvolvedora Mobile - React Native</h2>
+                        <span class="text-3 color-grey-2 card">Brazilians in Tech</span>
+                        <span class="text-3 color-grey-2 card">Rio de Janeiro</span>
+                        <p class="text-2 color-grey-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque magni possimus quo! Et nulla in dolore sequi aut porro non quam, maxime temporibus quasi facere illo impedit placeat praesentium?</p>
+                        <div class="box-candidatar">
+                        <span class="text-3 color-grey-2">Híbrido</span>
+                        <button class="mini-btn bg-color-brand-1 color-grey-6">Candidatar</button>
+                        </div>
+                    </div> -->
+            </section>
+
+            <!--Barra Lateral-->
+
+            
+            <aside class="bg-color-grey-6">
+                <h2 class="color-grey-1 title-4 bg-color-grey-6">Vagas selecionadas</h2>
+
+                        <!--Primeira vaga selecionada-->
+
+                <ul id="container-vagas-selecionadas">
+            <!--   <li class="vagas-selecionada-card bg-color-grey-6">
+                        <div class="flex-row">
+                            <h3 class="title-5 color-grey-1">Pessoa desenvolvedora fornt-end React JS</h3>
+                            <button class="trash-button bg-color-grey-5">
+                                <img src="./assets/img/trash.svg" alt="Ícone de lixeira">
+                            </button>
+                        </div>
+                        <div class="flex-span">
+                            <span class="color-grey-2 text-3">Kenzie Academy</span>
+                            <span class="color-grey-2 text-3">Curitiba</span>
+                        </div>
+                    </li> -->
+                </ul>
+                </aside>
+        </div>    
+    </main>
+    
+    <script src="./assets/js/vagas.js"></script>
+    <script src="./assets/js/script.js"></script>
     
 </body>
 </html>
